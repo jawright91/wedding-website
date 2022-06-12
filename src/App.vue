@@ -132,8 +132,8 @@
           <!-- footer -->
           <footer id="footer">
             <p class="footer-icon"><img src="images/ico-heart2.png" alt="" /></p>
-            <p class="quote-content">"When i saw you i fell in love, and you smiled because you knew."</p>
-            <p class="quote-author">Willian Shakespeare</p>
+            <!-- <p class="quote-content">"."</p> -->
+            <!-- <p class="quote-author"></p> -->
           </footer>
           <!-- /footer -->
         </div>
