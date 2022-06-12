@@ -1,6 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Ceremony from "../views/Ceremony.vue";
+import Gallery from "../views/Gallery.vue";
+import RSVP from "../views/RSVP.vue";
+import Registry from "../views/Registry.vue";
 
 Vue.use(VueRouter);
 
@@ -9,6 +13,26 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/ceremony",
+    name: "Ceremony",
+    component: Ceremony,
+  },
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: Gallery,
+  },
+  {
+    path: "/rsvp",
+    name: "RSVP",
+    component: RSVP,
+  },
+  {
+    path: "/registry",
+    name: "Registry",
+    component: Registry,
   },
   {
     path: "/about",
