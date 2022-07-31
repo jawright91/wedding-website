@@ -10,6 +10,7 @@
           let us know you will be attending. The invitation will contain instructions on how to RSVP.
         </p>
       </div>
+      <iframe src="https://joshandnguhiwedding.rsvpify.com" height="500px" witdh="600px"></iframe>
     </div>
   </div>
 </template>
