@@ -5,6 +5,7 @@ import Ceremony from "../views/Ceremony.vue";
 import Gallery from "../views/Gallery.vue";
 import RSVP from "../views/RSVP.vue";
 import Registry from "../views/Registry.vue";
+import Hotels from "../views/Hotels.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/registry",
     name: "Registry",
     component: Registry,
+  },
+  {
+    path: "/hotels",
+    name: "Hotels",
+    component: Hotels,
   },
   {
     path: "/about",

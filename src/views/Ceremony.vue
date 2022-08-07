@@ -1,20 +1,21 @@
 <template>
   <div class="row">
-        <div class="col-sm-6">
-          <div class="ceremony-item">
-    <div class="col-xs-10 col-xs-offset-1">
-      <!-- mai title -->
-      <h2 class="title1 couple-title1 title1-border">Ceremony</h2>
-      <!-- /main title -->
-      <div class="page-intro">
-        <p>Coming to our wedding? Well here’s the details on the big day!</p>
-      </div>
-      <div class="row row-maps">
-        <!-- Map -->
+    <div class="col-sm-12">
+      <div class="ceremony-item">
+        <div class="col-xs-10 col-xs-offset-1">
+          <!-- mai title -->
+          <h2 class="title1 couple-title1 title1-border">Ceremony</h2>
+          <!-- /main title -->
+          <div class="page-intro">
+            <p>Coming to our wedding? Well here’s the details on the big day!</p>
+          </div>
+          <div class="row row-maps">
+            <!-- Map -->
             <h2 class="title3">Ceremony and Reception</h2>
             <p>
               Both the Ceremony and Reception will be held at the Woods site of the Bella Woods Venue in Midlothian,
-              Texas.
+              Texas. You can view nearby hotels
+              <router-link to="/hotels">here.</router-link>
             </p>
             <h3 class="title4">Bella Woods</h3>
             <p>1888 N 9th St, Midlothian, TX 76065</p>
@@ -39,29 +40,6 @@
         </div>
         <!-- /Map -->
         <!-- Map -->
-        <div class="col-sm-6">
-          <div class="ceremony-item">
-            <h2 class="title3">Hotel</h2>
-            <p>
-              We have a few hotel blocks you may consider:
-              <ul>
-              <li>Fairfield Inn & Suites Dallas Cedar Hill for $154 per night
-              <br/> ~10 mintues from venue
-              <br/>Last Day to Book: Friday, September 16, 2022
-              <br/><a href="https://www.marriott.com/events/start.mi?id=1658328855210&key=GRP">Book your group rate for Itotia Wright Wedding</a>
-              </li>
-              
-              <li>Lorezno Hotel for $179 per night plus tax per room per night
-              <br/> ~25 minutes from venue
-              <br/>Last day to book: Friday, September 16, 2022
-              <br/><a href="https://www.reseze.net/servlet/SendPage?hotelid=1744&skipfirstpage=true&page=8789">Book your group rate for Josh and Nughi Wedding Room Block</a></li>
-              </li>
-              </ul>
-            </p>
-
-            <!-- /iframe -->
-          </div>
-        </div>
         <!-- /Map -->
       </div>
     </div>

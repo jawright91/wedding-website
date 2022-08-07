@@ -50,26 +50,26 @@
               <nav class="hd-nav nav navbar-nav navbar-right navbar-collapse collapse">
                 <ul class="nav navbar-nav hd-list-menu clearfix">
                   <li>
+                    <router-link to="/ceremony">
+                      <a v-on:click="hideCountdown()">
+                        <span class="link-title">Ceremony</span>
+                        <span class="link-subtitle">Location and time Time</span>
+                      </a>
+                    </router-link>
+                  </li>
+                  <!-- <li>
                     <router-link to="/gallery">
                       <a v-on:click="hideCountdown()">
                         <span class="link-title">Gallery</span>
                         <span class="link-subtitle">Our pictures</span>
                       </a>
                     </router-link>
-                  </li>
+                  </li> -->
                   <li>
-                    <router-link to="/ceremony">
+                    <router-link to="/hotels">
                       <a v-on:click="hideCountdown()">
-                        <span class="link-title">Ceremony</span>
-                        <span class="link-subtitle">Location, Time, Hotel</span>
-                      </a>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/rsvp">
-                      <a v-on:click="hideCountdown()">
-                        <span class="link-title">RSVP</span>
-                        <span class="link-subtitle">Let us Know</span>
+                        <span class="link-title">Hotels</span>
+                        <span class="link-subtitle">Local accomodations</span>
                       </a>
                     </router-link>
                   </li>
@@ -78,6 +78,14 @@
                       <a v-on:click="hideCountdown()">
                         <span class="link-title">Registry</span>
                         <span class="link-subtitle">Our Gift List</span>
+                      </a>
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/rsvp">
+                      <a v-on:click="hideCountdown()">
+                        <span class="link-title">RSVP</span>
+                        <span class="link-subtitle">Let us Know</span>
                       </a>
                     </router-link>
                   </li>

@@ -9,16 +9,17 @@
           We are so happy you will be joining us to celebrate. If you wish to give us a gift and want some help picking
           something we will love, you can browse our registries at:
         </p>
-        <ul>
+        <ul style="width: 50px; margin: 0 auto">
           <li>
             <a
+              target="_blank"
               href="https://smile.amazon.com/wedding/barbara-nguhi-itotia-josh-wright-dallas-october-2022/registry/59H865H8VWVP"
             >
               Amazon
             </a>
           </li>
           <li>
-            <a href="http://www.zola.com/registry/nguhiandjoshua">Zola</a>
+            <a target="_blank" href="http://www.zola.com/registry/nguhiandjoshua">Zola</a>
           </li>
         </ul>
       </div>
