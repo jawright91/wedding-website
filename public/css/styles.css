@@ -147,11 +147,9 @@ a:hover {
 }
 .navbar-default .navbar-toggle {
   border-color: #ffffff;
-  z-index: 99999999999;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
-  z-index: 99999999999;
 }
 .hd-logo {
   text-align: center;
@@ -330,7 +328,7 @@ a:hover {
 }
 .navbar-toggle {
   margin-top: -62px !important;
-  z-index: 99999999999;
+  z-index: 1;
 }
 .navbar-nav {
   margin: 0px 0px;
@@ -520,7 +518,7 @@ p {
 }
 @media (min-width: 768px) {
   .page-content {
-    min-height: 500px;
+    min-height: 900px;
   }
 }
 @media (min-width: 992px) {
@@ -1914,7 +1912,7 @@ textarea.form-control {
 }
 @media (max-width: 992px) {
   .container {
-    pointer-events: none;
+    /*pointer-events: none;*/
   }
   a,
   form,
