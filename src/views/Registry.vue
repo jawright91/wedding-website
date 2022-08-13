@@ -19,7 +19,7 @@
             </a>
           </li>
           <li>
-            <a target="_blank" href="http://www.zola.com/registry/nguhiandjoshua">Zola</a>
+            <a target="_blank" href="http://www.zola.com/registry/joshandnguhiwedding">Zola</a>
           </li>
         </ul>
       </div>
